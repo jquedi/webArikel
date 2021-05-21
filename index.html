@@ -1,0 +1,2082 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Style3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=2, user-scalable=yes">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168816658-7"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-168816658-7');
+	</script>
+
+
+
+
+</head>
+
+<body id="body" style="overflow: hidden;" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+	<div id="encabezado">
+		<div id="logoDiv">
+			<button id="logoB" onclick="document.location='#controlPoint7'">
+				<img src="imagenes\Logo extendido.PNG" id="logoImg">
+			</button>
+		</div>
+
+		<!-- menu horizontal -->
+
+		<div id="menu">
+			<nav class="navbar navbar-expand-sm navbar-light" style=" padding: 0px;">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="menuB nav-link" href="#controlPoint2" id="menuInicio"
+							style="padding: 0px;">COMPAÑIA</a>
+					</li>
+					<li class="nav-item">
+						<a class="menuB nav-link" href="#controlPoint1" id="menuServicios" style="padding: 0px;">QUE
+							NECESITA</a>
+					</li>
+					<li class="nav-item">
+						<a class="menuB nav-link" href="#controlPoint3" id="menuNosotros"
+							style="padding: 0px;">RESPONSABILIDAD SOCIAL</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="menuB nav-link dropdown-toggle" href="#" id="menuContacto" data-toggle="dropdown"
+							style="padding: 0px;">CONTACTO</a>
+						<div class="dropdown-menu" style="left: -47px;width: 190px;">
+							<a class="dropdown-item" href="#controlPoint4">Trabaja con nosotros</a>
+							<a class="dropdown-item" href="#controlPoint4">Adopta un jubilado</a>
+							<!-- <a class="dropdown-item" href="#controlPoint5">Nuestro equipo</a> -->
+							<a class="dropdown-item" href="#controlPoint6">Contacta con nosotros</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- menu vertical -->
+
+		<button id="botonMenu">
+			<div class="menuIcon"></div>
+			<div class="menuIcon"></div>
+			<div class="menuIcon"></div>
+		</button>
+
+		<ul class="navbar-nav" id="listaMenu">
+			<li class="menuLi2 nav-item">
+				<a class="menuB nav-link" href="#controlPoint2" id="menuInicio" style="padding: 0px;">COMPAÑIA</a>
+			</li>
+			<li class="menuLi2 nav-item">
+				<a class="menuB nav-link" href="#controlPoint1" id="menuServicios" style="padding: 0px;">QUE
+					NECESITA</a>
+			</li>
+			<li class="menuLi2 nav-item">
+				<a class="menuB nav-link" href="#controlPoint3" id="menuNosotros" style="padding: 0px;">RESPONSABILIDAD
+					SOCIAL</a>
+			</li>
+			<li class="menuLi2 nav-item dropleft" style="border-bottom: none;">
+				<a class="menuB nav-link dropdown-toggle" href="#" id="menuContacto" data-toggle="dropdown"
+					style="padding: 0px;">CONTACTO</a>
+				<div class="dropdown-menu" style="left: -47px;width: 190px;">
+					<a class="dropdown-item" href="#controlPoint4">Trabaja con nosotros</a>
+					<a class="dropdown-item" href="#controlPoint4">Adopta un jubilado</a>
+					<!-- <a class="dropdown-item" href="#controlPoint5">Nuestro equipo</a> -->
+					<a class="dropdown-item" href="#controlPoint6">Contacta con nosotros</a>
+				</div>
+			</li>
+		</ul>
+
+		<!-- submenus vertical -->
+
+		<ul class="subMenu2" id="subMenuCompañia2">
+			<li class="submenuLi"
+				style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px; border-bottom: solid; border-width: 2px; color: #8e8787; ">
+				<button class="submenuB" onclick="document.location='dondeEstamos.html'"><img class="imgSubMenu"
+						src="imagenes\IconoMovil.png"><span class="subMenuText">Donde estamos</span></button></li>
+			<li class="submenuLi"
+				style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px; border-bottom: solid; border-width: 2px; color: #8e8787; ">
+				<button class="submenuB" onclick="document.location='historia.html'"><img class="imgSubMenu"
+						src="imagenes\IconoMovil.png"><span class="subMenuText">Nuestra historia</span></button></li>
+			<li class="submenuLi" style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px;"><button
+					class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Organización</span></button></li>
+		</ul>
+		<ul class="subMenu2" id="subMenuServicios2">
+			<li class="submenuLi"
+				style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px; border-bottom: solid; border-width: 2px; color: #8e8787; ">
+				<button class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Seguridad con perro</span></button></li>
+			<li class="submenuLi"
+				style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px; border-bottom: solid; border-width: 2px; color: #8e8787; ">
+				<button class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Seguridad en detección</span></button></li>
+			<li class="submenuLi" style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px;"><button
+					class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Formación</span></button></li>
+		</ul>
+		<ul class="subMenu2" id="subMenuSocial2">
+			<li class="submenuLi"
+				style="margin: 10px 0px 0px 0px;padding: 0px 0px 0px 10px;border-bottom: solid;border-width: 2px;color: #8e8787;">
+				<button class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Programa 2ª oportunidad</span></button></li>
+			<li class="submenuLi" style="margin: 10px 0px 0px 0px;padding: 0px 0px 0px 10px;"><button
+					class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">COMPROMISOS</span></button></li>
+			<ul style="list-style-type: none;padding: 0px 0px 0px 20px;">
+				<li class="submenuLi" style="margin: 0px 0px 0px 0px;"><button class="submenuB"><button
+							class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+								class="subMenuText">con nuestros animales</span></button></li>
+				<li class="submenuLi" style="margin: 0px 0px 0px 0px;"><button class="submenuB"><button
+							class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+								class="subMenuText">con la sociedad</span></button></li>
+				<li class="submenuLi" style="margin: 0px 0px 0px 0px;"><button class="submenuB"><button
+							class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+								class="subMenuText">con nuestros clientes</span></button></li>
+				<li class="submenuLi" style="margin: 0px 0px 0px 0px;"><button class="submenuB"><button
+							class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+								class="subMenuText">con nuestros proveedores</span></button></li>
+				<li class="submenuLi" style="margin: 0px 0px 0px 0px;"><button class="submenuB"><button
+							class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+								class="subMenuText">con nuestros guias caninos</span></button></li>
+			</ul>
+			</li>
+		</ul>
+		<ul class="subMenu2" id="subMenuContacto2">
+			<li class="submenuLi"
+				style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px; border-bottom: solid; border-width: 2px; color: #8e8787; ">
+				<button class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Atención al cliente</span></button></li>
+			<li class="submenuLi"
+				style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px; border-bottom: solid; border-width: 2px; color: #8e8787; ">
+				<button class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Trabaja con nosotros</span></button></li>
+			<li class="submenuLi" style=" margin: 20px 0px 0px 0px; padding: 0px 0px 20px 10px;"><button
+					class="submenuB"><img class="imgSubMenu" src="imagenes\IconoMovil.png"><span
+						class="subMenuText">Adopta nuestros jubilados</span></button></li>
+		</ul>
+	</div>
+
+
+
+	<!-- Load -->
+
+	<div class="contenedorCarga" id="carga">
+
+		<div class="box">
+			<div class="loader4">
+				<img src="imagenes/logoCarga.png" id="imagenCarga">
+				<img src="imagenes/cargando.PNG" style="background-color: #ffffff38; position: relative;">
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Contenido -->
+
+	<div id="contenedor" class="container-fluid">
+
+		<!-- imagen inicio -->
+		<div id="controlPoint7" style="width: 100%;top: -44px;position: relative;"></div>
+		<div class="claseDiv" id="divHorus"></div>
+		<!-- lineas de trabajo -->
+		<div id="controlPoint1" style="width: 100%;top: -44px;position: relative;"></div>
+		<div class="waveWrapper waveAnimation" style="position: relative;">
+			<div class="" id="lineas" style="padding-bottom: 50px;padding-top: 44px;">
+				<div class="divLineas" id="linea1">
+					<div class="">
+						<h1 class="textoCentrado lineaTitulo">SEGURIDAD Y CONTROL</h1>
+					</div>
+					<div class="">
+						<p class="textLinea" id="pLinea1-1"><img class="imgHorus" id="imgLinea1"
+								src="imagenes/Linea1.png" style="max-width: 400px;">Si partimos de la base, de que el
+							perro viene a ocupar el espacio retirado por la Ley de Seguridad Privada del arma de fuego,
+							el tratamiento que se le ha de dar a su gestión y calidad ha de ser igual o superior al de
+							un servicio realizado con arma.
+						</p>
+						<p class="textLinea" id="pLinea1-2">Tenemos asumido, que el hecho de incorporar un perro al
+							servicio de seguridad es un elemento que viene a aumentar aún más si cabe la complejidad del
+							mismo, por lo que, desde un principio, ofrecemos un producto global, que ofrezca garantías
+							de calidad y gestión. </br>
+							Un perro de seguridad no tiene por qué ser peligroso ni agresivo, ya que en su formación se
+							ejerce un control superior sobre ellos, sería como afirmar que una persona por el simple
+							hecho de practicar un deporte de contacto (sírvase como ejemplo las artes marciales),
+							tuviese que tener manifestaciones de agresividad injustificada, es por ello que únicamente
+							en caso de ser necesario nuestros binomios están especializados en tácticas especificas
+							acordes a la naturaleza de la situación concreta que se pueda desarrollar, que en caso
+							imperativo, a fin de restablecer el orden el perro podrá mostrar una agresividad activa,
+							controlada en todo momento por el Guía y capaz de enfocar hacia uno o varios
+							individuos.</br>
+							El perro de seguridad entendido como tal, es en su esencia, una herramienta para el equipo
+							de seguridad. Herramienta con una alta capacidad de respuesta y un gran efecto disuasorio
+							frente actos vandálicos y hechos delictivos.</br>
+							Se puede usar en cualquier espacio, ya sea cerrado o abierto, para la protección de
+							inmuebles o en grandes concentraciones humanas, con una doble función: la contención de
+							masas y la neutralización de atentados yihadistas con arma blanca.</br>
+							<a class="seguirLeyendo textLinea" id="verMenos1"
+								style="color: #0300e2; cursor: pointer;">Ver Menos</a>
+						</p>
+						<a class="seguirLeyendo" id="seguirLeyendo1" style="color: #0300e2; cursor: pointer;">Seguir
+							leyendo</a>
+					</div>
+				</div>
+				<div class="divLineas" id="linea2">
+					<div class="">
+						<h1 class="textoCentrado lineaTitulo">DETECCIÓN</h1>
+					</div>
+					<div class="">
+						<p class="textLinea" id="pLinea2-1"><img class="imgHorus" id="imgLinea2"
+								src="imagenes/Linea2.png" style="max-width: 400px;">Una filosofía responsable y de
+							bienestar animal, con el respeto que merecen nuestros perros y la confianza mutua, son los
+							valores imprescindibles que conforman nuestra ética profesional y corporativa.
+						</p>
+						<p class="textLinea" id="pLinea2-2"> Es por ello que la inter-relación bidireccional, basada en
+							el respeto hacia nuestros canes, la utilización de los instintos de manera natural, junto a
+							técnicas de adiestramiento, procedentes fundamentalmente del positivismo, dan lugar al
+							establecimiento de un vínculo de confianza entre nuestros binomios Guía – perro, pudiendo
+							con ello poner a su disposición un servicio de total confianza. </br>Una filosofía
+							responsable y de bienestar animal, con el respeto que merecen nuestros perros y la confianza
+							mutua, son los valores imprescindibles que conforman nuestra ética profesional y
+							corporativa. Es por ello que la inter-relación bidireccional, basada en el respeto hacia
+							nuestros canes, la utilización de los instintos de manera natural, junto a técnicas de
+							adiestramiento, procedentes fundamentalmente del positivismo, dan lugar al establecimiento
+							de un vínculo de confianza entre nuestros binomios Guía – perro, pudiendo con ello poner a
+							su disposición un servicio de total confianza. El perro detector se convierte así, en un
+							indiscutible aliado en las labores de prevención encomendadas a la seguridad privada.
+							Insistimos en un concepto clave, LA DISUASION.
+							</br><ins><strong>SEGURIDAD EN POSITIVO.</strong></ins> </br>
+							El efecto de seguridad positiva que ofrece un control preventivo, efectuado por un perro
+							detector, es directamente proporcional al efecto de seguridad negativa que vuelca sobre el
+							posible agresor.</br>
+							La incertidumbre que genera poder ser descubierto, desbaratando todas las labores de montaje
+							que lleva implícito la comisión de un atentado, lleva a disuadirle de ejecutarlo, como
+							mínimo por la zona de actuación del perro. </br>
+
+							Esta labor, que sólo puede valorarse desde un prisma positivista, si está integrada en un
+							plan de actuación conjunta con varios dispositivos de seguridad, garantiza unos altos
+							niveles de disuasión.</br>
+							Entre otros ejemplos podemos destacar la detección de explosivos, sustancias estupefacientes
+							o productos pirotécnicos, a fin de impedir la entrada de este tipo de artefactos en el
+							interior de los recintos custodiados por la seguridad privada, como eventos deportivos.
+							<a class="seguirLeyendo textLinea" id="verMenos2"
+								style="color: #0300e2; cursor: pointer;">Ver Menos</a>
+						</p>
+						<a class="seguirLeyendo" id="seguirLeyendo2" style="color: #0300e2; cursor: pointer;">Seguir
+							leyendo</a>
+					</div>
+				</div>
+				<div class="divLineas" id="linea3">
+					<div class="">
+						<h1 class="textoCentrado lineaTitulo">FORMACIÓN</h1>
+					</div>
+					<div class="">
+						<p class="textLinea" id="pLinea3-1"><img class="imgHorus" id="imgLinea3"
+								src="imagenes/Linea3.png" style="max-width: 400px;"><img src="imagenes\arikel.png"
+								id="arikelImg" style="width: 90px;">, como compañía, no tiene un único propósito
+							económico, sino que, viene dado desde sus inicios con propósito inspiracional y
+							motivacional, quizás sea éste el secreto que le está haciendo crecer y ﬁdelizar sus
+							clientes.
+						</p>
+						<p class="textLinea" id="pLinea3-2">Su propósito es transformar aquellas ideas tan sencillas, en
+							transcendentales, las iniciativas en movimientos, dándole signiﬁcado a una vocación,
+							apelando directamente al corazón. Surge de los deseos y los sueños, expresándolos a lo
+							grande, buscando un impacto sobre el mundo para cambiarlo y mejorarlo.</br>
+							La responsabilidad, es un término que se reﬁere a la carga, compromiso y obligación, de los
+							miembros de una sociedad, tanto entre sí como para el conjunto. La educación es uno de los
+							factores que más inﬂuyen en el avance y progreso de personas y sociedades. La única manera
+							de obtener un futuro sostenible, es dejar de lado los intereses particulares e invertir en
+							crear determinadas reglas de organización y valores.</br>
+							Nuestra propuesta va dirigida por un lado, a los propietarios de las mascotas, y mejorar así
+							nuestro día a día junto a nuestro fiel compañero, facilitando la convivencia en sociedad. Y
+							en otro orden, al valor más preciado que tenemos, LA JUVENTUD, ya que nuestros menores
+							tienen un rol fundamental dentro del siglo XXIII. Al contrario que los bienes materiales que
+							tienden a tener fecha de caducidad, el conocimiento y los valores, son bienes inmateriales
+							que nunca se agotan.</br>
+							Estos valores son imprescindibles en las nuevas generaciones para mantener conciencia y
+							fortalecer los bienes inﬁnitos. Vivimos en comunidad y para ello nos debemos al respeto,
+							guiado por normas, valores y principios.</br>
+							Es función de nuestro sistema educativo como sociedad moderna, velar por estos pilares
+							fundamentales desde la niñez.</br>
+							<img src="imagenes\arikel.png" id="arikelImg" style="width: 90px;"> , propone colaborar con
+							este proyecto de sociedad, interiorizando estos valores y principios de manera involuntaria
+							a traves de Talleres Educativos, utilizando al “perro” como medio, ya que despierta gran
+							simpatía en la mayoria de los niños.</br>
+							<a class="seguirLeyendo textLinea" id="verMenos3"
+								style="color: #0300e2; cursor: pointer;">Ver Menos</a>
+						</p>
+						<a class="seguirLeyendo" id="seguirLeyendo3" style="color: #0300e2; cursor: pointer;">Seguir
+							leyendo</a>
+					</div>
+					<div class="divVideo" style="display: none;">
+						<p>¿Quieres conocer nuestros cursos?</p>
+						<button class="textoCentrado btn btn-primary" id="botonFormacion">Haz click aquí</button>
+					</div>
+				</div>
+				<div class="waveWrapperInner bgTop">
+					<div class="wave waveTop"
+						style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+				</div>
+				<div class="waveWrapperInner bgMiddle">
+					<div class="wave waveMiddle"
+						style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+				</div>
+				<div class="waveWrapperInner bgBottom">
+					<div class="wave waveBottom"
+						style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+				</div>
+			</div>
+		</div>
+		<!-- historia empresa -->
+		<div id="controlPoint2" style="width: 100%;top: -44px;position: relative;"></div>
+		<div class="claseDiv" id="historiaEmpresa">
+			<div style="width: 100%;">
+				<img src="imagenes\historiaHead.PNG" style="width: 100%;">
+			</div>
+			<div style="width: 100%; text-align: center;">
+				<h1 style=" color: #2f5ba4; font-size: 40px; font-family: sans-serif;">La mejor manera de predecir el
+					futuro es creandolo</h1>
+			</div>
+			<div style="width: 90%;margin: auto;font-size: 23px;color: #676767;overflow: hidden;height: auto;">
+				<p>Yolanda González - Carrato Hormigos funda en el año 2017 la Unidad Canina <img
+						src="imagenes\arikel.png" id="arikelImg" style="width: 90px;">, empresa que no surge con
+					criterios puramente económicos y basa su filosofía en principios de calidad y gestión. Su proposito
+					es transformar aquellas ideas tan sencillas en trascendentales, las iniciativas en movimientos,
+					darle sentido a una vocación palando directamente al corazón.</p>
+				<div id="divTexto"
+					style="width: 100%;margin: auto;font-size: 23px;color: #676767;overflow: hidden;height: auto;">
+					<p style=" margin-top: 0;">A finales del año 2017, son sus fundadores con gran experiencia en el
+						plano de la seguridad, tanto pública como privada, quienes deciden que las verdaderas aptitudes,
+						características y potencias del perro no están siendo desarrolladas para bien de la comunidad.
+						Por su facilidad de adiestramiento y capacidad de trabajo, inocuidad y reducción de riesgos
+						personales, seguridad en la ejecución del trabajo por profesionales y su efecto disuasorio, hace
+						al perro un aliado indiscutible de la seguridad.</p>
+					<p>La empresas, ya sean públicas o privadas, en la mayoría de las ocasiones sen enfrentan a la
+						imposibilidad de afrontar económicamente la formación de unidades caninas propias. Es este el
+						momento en el que hace su aparición la Unidad Canina <img src="imagenes\arikel.png"
+							id="arikelImg" style="width: 90px;">, dando servicio a toda aquella empresa o institución
+						que precise de:</p>
+					<ul>
+						<li><a>Eficiencia en el servicio de seguridad.</a></li>
+						<li><a>Crear un entorno sociológico de seguridad muy favorable.</a></li>
+						<li><a>Mejorar las relaciones con la comunidad, por su efecto de disuasión.</a></li>
+						<li><a>Mejorar el prestigio de empresas y Autoridades Políticas, que inicien este tipo de
+								actividades dentro de la programación en materia de seguridad ciudadana.</a></li>
+					</ul>
+				</div>
+			</div>
+			<div style=" width: 90%; text-align: end;">
+				<img src="imagenes\slogan.PNG">
+			</div>
+		</div>
+		<!-- responsabilidadSocial -->
+		<div id="controlPoint3" style="width: 100%;top: -44px;position: relative;"></div>
+		<div class="claseDiv" id="responsabilidadSocial">
+
+			<!-- Sobre 1 -->
+
+			<div class="divResponsabilidad" id="divResponsabilidad1">
+				<div class="pResponsabilidad" id="pResponsabilidad1">
+					<h1 class="responsabilidadTitulo">COMPROMISO CON PROVEEDORES</h1>
+					<p class="responsabilidadTexto" style="line-height: 1.5;">El grupo <img src="imagenes\arikel.png"
+							id="arikelImg" style="width: 90px;"> tiene por objetivo mantener un compromiso estable con
+						sus proveedores. Fomentando el empleo nacional al contratar firmas españolas, que dan lugar a la
+						rapidez en los procesos de suministro, a la vez que proporcionan confianza.</p>
+					<button class="btn btn-primary" id="botonAbrirSobre1">Saber más</button>
+				</div>
+				<div class="separador" id="separador1">
+				</div>
+				<div class="imgResponsabilidad" id="imgResponsabilidad1">
+				</div>
+				<div id="sobreResponsabilidad1" class="sobreResponsabilidad">
+
+					<div id="sobreArriba1" class="sobreArriba">
+						<div id="sobreArribaContenido1" class="sobreArribaContenido">
+							<div id="sobreArribaFrente1" class="sobreArribaFrente">
+								<img src="imagenes/Logo.png" class="mataSellos1">
+							</div>
+							<div id="sobreArribaEspalda1" class="sobreArribaEspalda">
+								<h1 class="sobreTexto" style="font-size: 4.5vmin; margin-top: 5%;">COMPROMISO CON
+									PROVEEDORES</h1>
+								<button id="botonCerrarSobre1"
+									style="position: absolute;top: 0;right: 0;background: #ff8989;border: none;">Cerrar</button>
+
+							</div>
+						</div>
+					</div>
+					<div class="sobreCentro">
+						<table style="height: 100%;">
+							<tr>
+								<td>
+									<p class="sobreTexto" style="font-size: 2.5vmin;">El grupo <img
+											src="imagenes\arikel.png" id="arikelImg" style="width: 90px;"> tiene por
+										objetivo mantener un compromiso estable con sus proveedores. Fomentando el
+										empleo nacional al contratar firmas españolas, que dan lugar a la rapidez en los
+										procesos de suministro, a la vez que proporcionan confianza.</br></br>
+										<img src="imagenes\arikel.png" id="arikelImg" style="width: 90px;"> asume el
+										compromiso de “feed back” con sus proveedores, asegurando así una comunicación
+										positiva, dando lugar a la máxima y mejor calidad en todos los productos o
+										servicios que pone a disposición de sus clientes.</br></br>
+										Nuestra política de compras busca la mejor relación entre precio y calidad, si
+										bien, ello no quita para que de una manera inexcusable se adquieran productos
+										que no atenten contra la responsabilidad social y medioambiental
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="sobreAbajo1" class="sobreAbajo">
+						<div id="sobreAbajoContenido1" class="sobreAbajoContenido">
+							<div id="sobreAbajoFrente1" class="sobreAbajoFrente">
+								<img src="imagenes/Logo.png" class="mataSellos2">
+							</div>
+							<div id="sobreAbajoEspalda1" class="sobreAbajoEspalda">
+
+								<p class="sobreTexto"></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+			<!-- Sobre 2 -->
+
+			<div class="divResponsabilidad" id="divResponsabilidad2">
+				<div class="pResponsabilidad" id="pResponsabilidad2">
+					<h1 class="responsabilidadTitulo">COMPROMISO CON NUESTROS CLIENTES</h1>
+					<p class="responsabilidadTexto" style="line-height: 1.5;"><img src="imagenes\arikel.png"
+							id="arikelImg" style="width: 90px;"> siempre procura dar un servicio de maxima calidad a
+						nuestros clientes, ya sean particulares, empresas. Para poder ofrecer ese servicio, nos
+						esforzamos por estar a la cabeza en innovación.</p>
+					<button class="btn btn-primary" id="botonAbrirSobre2">Saber más</button>
+				</div>
+				<div class="separador" id="separador2">
+				</div>
+				<div class="imgResponsabilidad" id="imgResponsabilidad2">
+				</div>
+				<div id="sobreResponsabilidad2" class="sobreResponsabilidad">
+
+					<div id="sobreArriba2" class="sobreArriba">
+						<div id="sobreArribaContenido2" class="sobreArribaContenido">
+							<div id="sobreArribaFrente2" class="sobreArribaFrente">
+								<img src="imagenes/Logo.png" class="mataSellos1">
+							</div>
+							<div id="sobreArribaEspalda2" class="sobreArribaEspalda">
+								<h1 class="sobreTexto" style="font-size: 4.5vmin; margin-top: 5%;">COMPROMISO CON
+									NUESTROS CLIENTES</h1>
+								<button id="botonCerrarSobre2"
+									style="position: absolute;top: 0;right: 0;background: #ff8989;border: none;">Cerrar</button>
+
+							</div>
+						</div>
+					</div>
+					<div class="sobreCentro">
+						<table style="height: 100%;">
+							<tr>
+								<td>
+									<h2 class="sobreTexto">RELATIVAS A LA FORMACIÓN</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="sobreTexto">En seguridad, la formación continua es de vital importancia,
+										es por ello que, la Unidad Canina pone a disposición de sus clientes un sistema
+										de formación periódica todas las semanas, para facilitar el trabajo y
+										mecanizarlo, en previsión de que se puedan presentar situaciones de estrés.</br>
+										Ponemos a disposición de nuestros clientes, todo el material didáctico a nuestro
+										alcance, desde los recursos materiales, como las instalaciones homologadas,
+										hasta los humanos y animales, instructores y figurantes titulados, y perros
+										profesionales respectivamente.</br>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2 class="sobreTexto">INNOVACIÓN</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="sobreTexto">Hacemos un sobre esfuerzo en I+D, preocupándonos por los
+										problemas emergentes de nuestros clientes, para desarrollar soluciones en el
+										menor tiempo posible, siempre, en lo que a perros se refiere.</br>
+										El trabajo con perros no está reñido con la tecnología digital, es por ello que
+										hemos diseñado un software informático profesional, a disposición de todos
+										nuestros clientes, capaz de gestionar las unidades caninas a golpe de “click”,
+										sin importar la distancia y cantidad de miembros. Aplicación que funciona en
+										tiempo real, y desde cualquier dispositivo móvil, Tablet o pc, donde podemos
+										controlar sus recuerdos pendientes (vacunas, visitas al veterinario, etc.),
+										entrenamientos, diario, etc.</br>
+									</p>
+
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="sobreAbajo2" class="sobreAbajo">
+						<div id="sobreAbajoContenido2" class="sobreAbajoContenido">
+							<div id="sobreAbajoFrente2" class="sobreAbajoFrente">
+								<img src="imagenes/Logo.png" class="mataSellos2">
+							</div>
+							<div id="sobreAbajoEspalda2" class="sobreAbajoEspalda">
+								<p class="sobreTexto">Nos preocupamos por estudiar, y conocer como piensa el perro, para
+									así, obtener el mayor y mejor rendimiento en el aprendizaje, ya sea dirigido hacia
+									la seguridad, o al propietario de una mascota, y mejorar así la convivencia en
+									sociedad.</br>
+								</p>
+
+								<h2 class="sobreTexto">EFICIENCIA Y TRABAJO EN EQUIPO</h2>
+
+								<p class="sobreTexto">Viene representado por el eslogan del grupo <img
+										src="imagenes\slogan.PNG" style="width: 160px;">, queriendo decir que, todo el
+									equipo <img src="imagenes\arikel.png" style="width: 60px;">, trabaja como si de una
+									maquina de precisión se tratara, ofreciendo a sus clientes la mejor eficiencia,
+									basada en la mejor calidad, al mejor precio.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+			<!-- Sobre 3 -->
+
+			<div class="divResponsabilidad" id="divResponsabilidad3">
+				<div class="pResponsabilidad" id="pResponsabilidad3">
+					<h1 class="responsabilidadTitulo">COMPROMISO CON NUESTROS GUÍAS CANINOS</h1>
+					<p class="responsabilidadTexto" style="line-height: 1.5;">En la seguridad privada cada vez se exige
+						un mayor grado de calidad. </br>
+						Es por ello que <img src="imagenes\arikel.png" id="arikelImg" style="width: 90px;"> propone a
+						sus Guías Caninos una continua formación de calidad.</p>
+					<button class="btn btn-primary" id="botonAbrirSobre3">Saber más</button>
+				</div>
+				<div class="separador" id="separador3">
+				</div>
+				<div class="imgResponsabilidad" id="imgResponsabilidad3">
+				</div>
+				<div id="sobreResponsabilidad3" class="sobreResponsabilidad">
+
+					<div id="sobreArriba3" class="sobreArriba">
+						<div id="sobreArribaContenido3" class="sobreArribaContenido">
+							<div id="sobreArribaFrente3" class="sobreArribaFrente">
+								<img src="imagenes/Logo.png" class="mataSellos1">
+							</div>
+							<div id="sobreArribaEspalda3" class="sobreArribaEspalda">
+								<h1 class="sobreTexto" style="font-size: 4.5vmin; margin-top: 5%;">COMPROMISO CON
+									NUESTROS GUÍAS CANINOS</h1>
+								<button id="botonCerrarSobre3"
+									style="position: absolute;top: 0;right: 0;background: #ff8989;border: none;">Cerrar</button>
+
+							</div>
+						</div>
+					</div>
+					<div class="sobreCentro">
+						<table style="height: 100%;">
+							<tr>
+								<td>
+									<h2 class="sobreTexto" style="font-size: 1.6vmin;">RELATIVAS A LA FORMACIÓN</h2>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p class="sobreTexto" style="font-size: 1.6vmin;">Hoy en día, existen cada vez mas
+										espacios de actuación compartidos para la seguridad privada con la seguridad
+										pública, practicando un número indeterminado de servicios dentro de estos
+										espacios, asumiendo labores de prevención. Operativos con unos altos niveles de
+										riesgo, que influyen en amplio abanico de posibilidades y situaciones. Lugares
+										donde la seguridad privada es percibida por el ciudadano como el primer elemento
+										de respuesta, siéndoles exigido unos estándares de calidad en la actuación, al
+										nivel de la seguridad pública.</br>
+										Este es el motivo, por el que, el grupo pone a disposición de sus Guías Caninos
+										una formación continua de calidad, expresada desde, formadores, instructores y
+										figurantes con diversas titulaciones, además de, estar acreditados por el
+										Ministerio del Interior como formadores de Guías Caninos para la seguridad
+										privada.</br>
+										Además, para cumplir con nuestro compromiso de eficiencia, esta formación se
+										ofrece en instalaciones propias, con los pertinentes permisos, registrado como
+										núcleo zoológico, para desarrollar este tipo de actividades con total
+										garantía.</br>
+										En relación, a los recursos animales, se pone a disposición de los Guías
+										Caninos, y su correcta formación, perros adiestrados de manera exclusiva para
+										las labores propias de la seguridad privada.</br>
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h2 class="sobreTexto" style="font-size: 1.6vmin;">PERFIL DEL EQUIPO HUMANO</h2>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="sobreAbajo3" class="sobreAbajo">
+						<div id="sobreAbajoContenido3" class="sobreAbajoContenido">
+							<div id="sobreAbajoFrente3" class="sobreAbajoFrente">
+								<img src="imagenes/Logo.png" class="mataSellos2">
+							</div>
+							<div id="sobreAbajoEspalda3" class="sobreAbajoEspalda">
+
+								<p class="sobreTexto" style="font-size: 1.6vmin;">Nos remitimos una vez más a nuestro
+									eslogan “Efficiency and teamwork”, donde en la elección del equipo humano se tienen
+									en cuenta, entre otras, las siguientes cualidades:</br>
+									- Ser una persona con dotes comunicativas y de facilidad en la adaptación en
+									situaciones cambiantes</br>
+									- Tenga amor por los animales en general y fiel admirador del perro</br>
+									- Sea colaborador y tenga la capacidad de aceptar y asumir críticas.</br>
+									- Un alto sentido del compromiso, asumiendo responsabilidades</br>
+									- Ser imaginativo y capaz de prever acontecimientos futuros.</br>
+									Todas ellas, juegan en favor de conformar un equipo sólido, que se mueve en bloque
+									dentro de un mismo sentido de circulación. La empatía impera en el equipo, sabiendo
+									escuchar y valorar aportaciones.</br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+
+
+			<!-- Sobre 4 -->
+
+			<div class="divResponsabilidad" id="divResponsabilidad4">
+				<div class="pResponsabilidad" id="pResponsabilidad4">
+					<h1 class="responsabilidadTitulo">COMPROMISO CON NUESTROS ANIMALES</h1>
+					<p class="responsabilidadTexto" style="line-height: 1.5;font-style: oblique;">“El modo de valorar el
+						grado de educación de un pueblo y de un hombre, es la forma como tratan a los animales”
+						(Berthold Averbach)</p>
+					<button class="btn btn-primary" id="botonAbrirSobre4">Saber más</button>
+				</div>
+				<div class="separador" id="separador4">
+				</div>
+				<div class="imgResponsabilidad" id="imgResponsabilidad4">
+				</div>
+				<div id="sobreResponsabilidad4" class="sobreResponsabilidad">
+
+					<div id="sobreArriba4" class="sobreArriba">
+						<div id="sobreArribaContenido4" class="sobreArribaContenido">
+							<div id="sobreArribaFrente4" class="sobreArribaFrente">
+								<img src="imagenes/Logo.png" class="mataSellos1">
+							</div>
+							<div id="sobreArribaEspalda4" class="sobreArribaEspalda">
+								<h1 class="sobreTexto" style="font-size: 4.5vmin; margin-top: 5%;">COMPROMISO CON
+									NUESTROS ANIMALES</h1>
+								<button id="botonCerrarSobre4"
+									style="position: absolute;top: 0;right: 0;background: #ff8989;border: none;">Cerrar</button>
+
+							</div>
+						</div>
+					</div>
+					<div class="sobreCentro">
+						<table style="height: 100%;">
+							<tr>
+								<td>
+									<p class="sobreTexto" style="font-size: 2.5vmin;">Partir de la base que, el
+										bienestar y cuidado de los animales que integran nuestra unidad canina es una
+										prioridad para nosotros. Viven en un ambiente cariñoso, sano, alegre y
+										limpio.</br>
+										Cada uno de los animales dispone de atención personalizada, con espacios propios
+										para vivir y un programa sanitario específico y exclusivo. Para nosotros, no
+										solo es importante la salud física, sino que le dedicamos una especial atención
+										a la salud mental, motivo por el que, tras los animales hay un equipo técnico,
+										que estudia cada uno de los casos de manera particular, para proporcionar
+										programas de trabajo diarios de desestrés.
+									</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="sobreAbajo4" class="sobreAbajo">
+						<div id="sobreAbajoContenido4" class="sobreAbajoContenido">
+							<div id="sobreAbajoFrente4" class="sobreAbajoFrente">
+								<img src="imagenes/Logo.png" class="mataSellos2">
+							</div>
+							<div id="sobreAbajoEspalda4" class="sobreAbajoEspalda">
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- Trabaja y Adopta -->
+		<div id="controlPoint4" style="width: 100%;top: -44px;position: relative;"></div>
+		<div class="claseDiv container-fluid" id="trabajaAdopta">
+			<div class="row">
+				<div class="col-xl" id="divTrabaja">
+					<div class="row">
+						<h1 class="textoCentrado"
+							style="color: #797979;font-size: 45px;font-weight: 600;text-decoration: underline;font-family: sans-serif;background: #f8f8ffd9;">
+							TRABAJA CON NOSOTROS</h1>
+					</div>
+					<div class="row">
+						<span id="trabaja1" class="textoCentrado textoTrabaja">¿Te gusta el mundo del perro o la
+							seguridad privada? ¿Buscas hacer de ello tu profesión?</span>
+					</div>
+					<div class="row">
+						<span id="trabaja2" class="textoCentrado textoTrabaja" style="width: auto;padding: 5px;">
+							¡NOSOTROS PODEMOS AYUDARTE! </span>
+					</div>
+					<div class="row" style="margin-bottom: 10px">
+						<span id="trabaja3" class="textoCentrado textoTrabaja">Completa el siguiente formulario y nos
+							pondremos en contacto contigo lo antes posible.</span>
+					</div>
+					<div class="row">
+						<a id="formulario1" style="position: relative; left:-100%; opacity: 0.4;"
+							href="https://docs.google.com/forms/d/e/1FAIpQLScgXZ1Yv6XSo9Gj6AlVI7X67SZbn5SGKexe16AlwTLWXxYYpw/viewform?usp=sf_link"
+							target="_blank" class="textoCentrado botonFormulario btn btn-primary">Formulario</a>
+					</div>
+					<div id="divTrabaja1" style="position: absolute;width:100%;height:30px;top: 50%;"></div>
+				</div>
+				<div class="col-xl" id="divAdopta">
+					<div class="row">
+						<h1 class="textoCentrado"
+							style="color: #dfe5ff;font-size: 45px;font-weight: 600;text-decoration: underline;background: dimgrey;">
+							ADOPTA NUESTROS JUBILADOS</h1>
+					</div>
+					<div class="row">
+						<span id="adopta1" class="shadow-lg textoCentrado textoAdopta">A todo el mundo le llega el
+							momento de colgar las botas y jubilarse. Nuestros perros no son distintos. A nuestros perros
+							se les entrena para que consideren su trabajo un juego y puedan disfrutar de él. Pero cuando
+							alcanzan cierto grado de madurez, empiezan a ser menos receptivos a dichos “juegos”. Ese es
+							el momento de buscarles una nueva familia.</span>
+					</div>
+					<div class="row">
+						<span id="adopta2" class="shadow-lg textoCentrado textoAdopta"
+							style="width: auto;padding: 5px;"> ¿Quieres ser su nueva familia? </span>
+					</div>
+					<div class="row" style="margin-bottom: 10px">
+						<span id="adopta3" class="shadow-lg textoCentrado textoAdopta">Si completas el seguiente
+							cuestionario, entrarás en nuestra base de datos y si resultas ser la familia ideal para
+							alguno de nuestros actuales o futuros jubilados, nos pondremos en contacto contigo.</span>
+					</div>
+					<div class="row">
+						<a id="formulario2" style="position: relative; right:-100%; opacity: 0.4;"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSesl5sc8c-MUrF8GH3jLhXKzQHBA-AtPBJzkBVseK-S411aHQ/viewform?usp=sf_link"
+							target="_blank" class="textoCentrado botonFormulario btn btn-primary">Formulario</a>
+					</div>
+					<div id="divAdopta1" style="position: absolute;width:100%;height:30px;top: 50%;"></div>
+				</div>
+			</div>
+		</div>
+		<!-- Nuestro Equipo -->
+		<div id="controlPoint5" style="width: 100%;top: -44px;position: relative;"></div>
+		<div class="claseDiv" id="empleados" style="display:none;">
+
+			<div class="row">
+				<h1 class="lineaTitulo textoCentrado">NUESTRO EQUIPO</h1>
+			</div>
+			<div class="row claseDiv container-fluid carousel slide" id="tarjetas" data-ride="carousel"
+				style="padding-bottom: 50px;padding-top: 44px;">
+
+				<!--Indicadores de posicion-->
+				<ul class="carousel-indicators">
+					<li data-target="#tarjetas" data-slide-to="0" class="active" style="background-color: black;"></li>
+					<li data-target="#tarjetas" data-slide-to="1" style="background-color: black;"></li>
+					<li data-target="#tarjetas" data-slide-to="2" style="background-color: black;"></li>
+					<li data-target="#tarjetas" data-slide-to="3" style="background-color: black;"></li>
+					<li data-target="#tarjetas" data-slide-to="4" style="background-color: black;"></li>
+					<li data-target="#tarjetas" data-slide-to="5" style="background-color: black;"></li>
+				</ul>
+
+				<div class="carousel-inner">
+					<div class="carousel-item active" id="tarjeta1">
+						<div class="card divCentrado" style="width: 300px; background: white;">
+							<img class="card-img-top" src="imagenes/direccion.PNG" alt="Card image"
+								style="width: 100%;margin: auto;text-align: center;border: solid;border-width: 1px;">
+							<div class="card-body">
+								<h4 class="card-title textoCentrado">Dirección</h4>
+								<p class="card-text textoCentrado">Dirección de Arikel</p>
+								<div class="botonFormulario">
+									<a href="http://tarjetaarikel.arikelk9.es/" target="_blank"
+										class="btn btn-primary">Tarjeta virtual</a>
+								</div>
+							</div>
+						</div>
+						<div class="divCentrado">
+							<p class="textoCentrado"></p>
+						</div>
+					</div>
+					<div class="carousel-item container-fluid" id="tarjeta2">
+						<div class="contenedorTarjeta row" style="margin: auto;min-width: 396px; max-width: 650px;">
+							<div class="card divCentrado tarjetaEmpleado col" style="padding: 0;">
+								<img class="card-img-top" src="imagenes/yolanda.jpg" alt="Card image"
+									style="width: 100%">
+								<div class="card-body">
+									<h4 class="card-title textoCentrado">Yolanda Gonzalez-Carrato Hormigos</h4>
+									<p class="card-text textoCentrado">Fundadora del grupo Arikel</p>
+									<div class="botonFormulario">
+										<a href="http://tarjetayolanda.arikelk9.es/" target="_blank"
+											class="btn btn-primary">Tarjeta virtual</a>
+									</div>
+								</div>
+							</div>
+							<div class="divCentrado divTextoEmpleado col" style="width: 60%;">
+								<p class="textoCentrado textoEmpleado">Ha hecho del mundo del perro su forma de vida,
+									adiestradora canina profesional, y Vigilante de Seguridad en activo. Además, de ser
+									Instructora habilitada por el Ministerio del Interior para formar Vigilantes de
+									Seguridad como Guías Caninos, en seguridad y detección de sustancias.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item container-fluid" id="tarjeta3">
+						<div class="contenedorTarjeta row" style="margin: auto;min-width: 396px; max-width: 650px;">
+							<div class="card divCentrado tarjetaEmpleado col" style="padding: 0;">
+								<img class="card-img-top" src="imagenes/sofia.jpg" alt="Card image" style="width: 100%">
+								<div class="card-body">
+									<h4 class="card-title textoCentrado">Sofía Navarro Pareja</h4>
+									<p class="card-text textoCentrado">Comercial de la zona norte de Alicante</p>
+									<div class="botonFormulario">
+										<a href="http://tarjetasofia.arikelk9.es/" target="_blank"
+											class="btn btn-primary">Tarjeta virtual</a>
+									</div>
+								</div>
+							</div>
+							<div class="divCentrado divTextoEmpleado col" style="width: 60%;">
+								<p class="textoCentrado textoEmpleado">Adiestradora Canina Profesional, amante de todos
+									los animales en general, si bien tiene un vínculo muy especial con el perro. Es una
+									persona con firmes ideales y una imagen de frescura combinada con la ternura que le
+									caracteriza. Sofía nunca deja de sonreír y contagia de esa felicidad a todo el
+									circulo que le rodea.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item container-fluid" id="tarjeta4">
+						<div class="contenedorTarjeta row" style="margin: auto;min-width: 396px; max-width: 650px;">
+							<div class="card divCentrado tarjetaEmpleado col" style="padding: 0;">
+								<img class="card-img-top" src="imagenes/hector.jpeg" alt="Card image"
+									style="width: 100%">
+								<div class="card-body">
+									<h4 class="card-title textoCentrado">Héctor Cascales Hernández</h4>
+									<p class="card-text textoCentrado">Comercial de la zona sur de Alicante</p>
+									<div class="botonFormulario">
+										<a href="http://tarjetahector.arikelk9.es/" target="_blank"
+											class="btn btn-primary">Tarjeta virtual</a>
+									</div>
+								</div>
+							</div>
+							<div class="divCentrado divTextoEmpleado col" style="width: 60%;">
+								<p class="textoCentrado textoEmpleado">Lleno de vitalidad, siempre dispuesto al trabajo
+									y una capacidad de compromiso y esfuerzo que le hace resaltar. Ha hecho del mundo
+									del perro su vida y transmite su positividad, lo que hace que el perro vea su vida
+									desde un prisma diferente. Dentro de su curriculum además de destacar el
+									adiestramiento de base, se distingue la figurancia.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item container-fluid" id="tarjeta5">
+						<div class="contenedorTarjeta row" style="margin: auto;min-width: 396px; max-width: 650px;">
+							<div class="card divCentrado tarjetaEmpleado col" style="padding: 0;">
+								<img class="card-img-top" src="imagenes/susana.jpg" alt="Card image"
+									style="width: 100%">
+								<div class="card-body">
+									<h4 class="card-title textoCentrado">Susana Barrientos García</h4>
+									<p class="card-text textoCentrado">Comercial de la zona de Murcia</p>
+									<div class="botonFormulario">
+										<a href="http://tarjetasusana.arikelk9.es/" target="_blank"
+											class="btn btn-primary">Tarjeta virtual</a>
+									</div>
+								</div>
+							</div>
+							<div class="divCentrado divTextoEmpleado col" style="width: 60%;">
+								<p class="textoCentrado textoEmpleado">Quien vive el mundo del perro como una vocación y
+									siente profundamente el amor por los animales. Su trayectoria profesional se remonta
+									a varios años atrás con un curriculum muy notorio, del que se puede destacar las
+									titulaciones de “Master en psicología aplicada a la clínica y a la educación del
+									perro”, “Adiestradora de perros potencialmente peligrosos”, Acreditada como
+									instructora del Ministerio del Interior”, y un largo etc.</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item" id="tarjeta6">
+						<div class="card divCentrado" style="width: 300px; background: white;">
+							<img class="card-img-top" src="imagenes/jorge.png" alt="Card image" style="width: 100%">
+							<div class="card-body">
+								<h4 class="card-title textoCentrado">Jorge Quereda Díaz</h4>
+								<p class="card-text textoCentrado">Tecnico responsable del departamente informatico</p>
+								<div class="botonFormulario">
+									<a href="http://tarjetajorge.arikelk9.es/" target="_blank"
+										class="btn btn-primary">Tarjeta virtual</a>
+								</div>
+							</div>
+						</div>
+						<div class="divCentrado">
+							<p class="textoCentrado"></p>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Flechas izquierda y derecha -->
+				<a class="carousel-control-prev" href="#tarjetas" data-slide="prev">
+					<span
+						style="background-image: url('imagenes/FlechaIzquierda.png');height: 45px;background-size: cover;width: 45px;"></span>
+				</a>
+				<a class="carousel-control-next" href="#tarjetas" data-slide="next">
+					<span
+						style="background-image: url('imagenes/FlechaDerecha.png');height: 45px;background-size: cover;width: 45px;"></span>
+				</a>
+			</div>
+
+		</div>
+		<!-- Contacto -->
+		<div id="controlPoint6" style="width: 100%;top: -44px;position: relative;"></div>
+		<div class="claseDiv" id="contacto">
+			<div style="width: 100%;">
+				<img src="imagenes\dondeEstamosHead.PNG" style="width: 100%;">
+			</div>
+			<div
+				style="max-width: 1200px;font-family: sans-serif;color: #676767;width: 90%;text-align: left;font-size: 25px;margin: auto;margin-top: 60px;">
+				<p>En nuestras instalaciones podemos ofrecerte una atención personalizada. Puedes escribirnos a través
+					del
+					siguiente formulario y nuestro equipo técnico se pondrá en contacto con usted a la mayor
+					brevedad.</br>
+					Si lo prefiere puede llamarnos por teléfono o enviarnos un correo electrónico.
+				</p>
+			</div>
+			<div
+				style=" max-width: 1200px;width: 90%; margin: auto; border-bottom: solid; border-bottom-color: #949494;">
+				<table>
+					<tr>
+						<td>
+							<h2 style="font-size: 30px; font-family: sans-serif; margin: 0;">Nuestro contacto 691 203
+								619 - 691 465 334</h2>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h2 style="font-size: 30px; font-family: sans-serif; margin: 0;margin-bottom: 15px;">
+								dirección@arikelk9.com</h2>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div style="max-width: 1200px; width: 90%; margin: auto;">
+				<h2 style="font-size: 30px; font-family: sans-serif;">Carretera de San Vicente del Raspeig - Agost, Km
+					0,900 - 03699 - Alicante</h2>
+			</div>
+			<div style=" width: 90%; margin: auto; max-width: 950px;">
+				<table style="width: 100%;">
+					<tr>
+						<td>
+							<div>
+								<table style="width: 100%;">
+									<form id="form" action="email.php" method="POST" enctype="text/plain">
+										<tr>
+											<td>
+												<table style="width: 100%;">
+													<tr>
+														<td style="width: 50%;">
+															<input
+																style="margin: 15px;margin-left: 0;background: ghostwhite;height: 60px;font-family: monospace;font-size: 15px;width: 90%;"
+																id="nombre" type="text" name="nombre"
+																placeholder=" Nombre Completo" />
+														</td>
+														<td style="width: 50%;">
+															<input
+																style="background: ghostwhite;height: 60px;font-family: monospace;font-size: 15px;width: 90%;"
+																id="correo" type="email" name="correo"
+																placeholder=" E-mail" />
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td style="vertical-align: top;width: 50%;">
+
+												<textarea
+													style="background: ghostwhite;height: 200px;margin: 0px 14px 15px 0px;width: 95%;font-size: 15px;font-family: monospace;"
+													id="cuerpo" name="cuerpo" placeholder=" Escribe aquí tu mensaje"
+													rows="10" cols="30"></textarea>
+											</td>
+											<td style="width: 50%;" rowspan="3">
+												<div style="height: 400px;width: 100%;border: solid;border-width: 1px;">
+													<iframe
+														src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.3479014707923!2d-0.5641908843941374!3d38.41032418311111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd623312a79a07e7%3A0xf73372cb410b1aed!2sUnidad%20Canina%20ARIKEL!5e0!3m2!1ses!2ses!4v1594394808226!5m2!1ses!2ses"
+														width="100%" height="100%" frameborder="0" style="border:0;"
+														allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="checkbox" id="consentimiento" name="consentimiento"
+													value="si">
+												<label style=" font-family: sans-serif; color: #9c9d9d;">He leído y
+													acepto las Notas legales y la Política de privacidad</label>
+											</td>
+										</tr>
+									</form>
+									<tr>
+										<td>
+											<button id="enviar" disabled="true"
+												style=" background: #3760a58a; border: none; height: 65px; width: 130px; color: white; font-size: 18px; font-weight: 700; font-family: sans-serif;">ENVIAR</button>
+										</td>
+									</tr>
+								</table>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<p
+					style=" width: 90%; margin: auto; margin-top: 20px; margin-bottom: 50px; font-size: 12px; color: dimgray;">
+					De conformidad con la normativa vigente en materia de Protección de Datos de carácter personal le
+					informamos que los datos de carácter personal que nos proporcione rellenando el presente formulario
+					formarán parte de un fichero responsabilidad de ARIKEL finalidad de la recogida y tratamiento de los
+					datos personales: gestionar el alta a esta suscripción y remitir boletines periódicos con
+					información y oferta prospectiva de productos o servicios propios y de terceros afiliados.
+					Legitimación: Consentimiento del interesado. Destinatarios: ARIKEL Ver Notas legales y Política de
+					privacidad de ARIKEL Derechos: Podrás ejercer tus derechos de acceso, rectificación, limitación,
+					supresión, portabilidad, cancelación y oposición de los datos en info@arikelk9.com así como el
+					derecho a presentar una reclamación ante una autoridad de control.</p>
+
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+	<!-- Pie de pagina -->
+
+	<div id="piePagina"
+		style="background:white;height: 400px;width: 100%;border-top-right-radius: 893px 77px;min-width: 750px;display: none;">
+
+		<table style="width: 100%;">
+
+			<tr>
+				<td>
+					<div>
+						<img style="height: 390px;" src="imagenes/logoGrises.PNG">
+					</div>
+				</td>
+				<td>
+					<div>
+						<table>
+							<tr>
+								<td>
+									<a style=" color: #525252; font-size: 21px; font-family: sans-serif;">COMPAÑIA</a>
+									<table
+										style=" border-left: groove; border-width: 2px; margin-top: 10px; margin-bottom: 10px;">
+										<tr>
+											<td>
+												<button class="pieTituloSub"
+													onclick="document.location='dondeEstamos.html'">DONDE
+													ESTAMOS</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub"
+													onclick="document.location='historia.html'">NUESTRA
+													HISTORIA</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a
+										style=" color: #525252; font-size: 21px; font-family: sans-serif;">ORGANIZACIÓN</a>
+									<table
+										style=" border-left: groove; border-width: 2px; margin-top: 10px; margin-bottom: 10px;">
+										<tr>
+											<td>
+												<button class="pieTituloSub">PERROS DE SEGURIDAD Y CONTROL</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">PERROS DE DETECCIÓN</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">FORMACIÓN PROFESIONAL</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a style=" color: #525252; font-size: 21px; font-family: sans-serif;">CONTACTO</a>
+									<table
+										style=" border-left: groove; border-width: 2px; margin-top: 10px; margin-bottom: 10px;">
+										<tr>
+											<td>
+												<button class="pieTituloSub">ATENCIÓN AL CLIENTE</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">TRABAJA CON NOSOTROS</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">ADOPTA NUESTROS JUBILADOS</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+				<td>
+					<div>
+						<table>
+							<tr>
+								<td>
+									<a style=" color: #525252; font-size: 21px; font-family: sans-serif;">RESPONSABILIDAD
+										CORPORATIVA</a>
+									<table
+										style=" border-left: groove; border-width: 2px; margin-top: 10px; margin-bottom: 10px;">
+										<tr>
+											<td>
+												<button class="pieTituloSub">SEGUNDA OPORTUNIDAD</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">PROGRAMA JUBILACIONES</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">COMPROMISO CON LA SOCIEDAD</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">COMPROMISO CON NUESTROS CLIENTES</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">COMPROMISO CON NUESTROS
+													PROVEEDORES</button>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<button class="pieTituloSub">COMPROMISO CON NUESTROS GUÍAS
+													CANINOS</button>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td style=" text-align: end; ">
+									<table style=" width: 100%; ">
+										<tr>
+											<td style=" text-align: end; ">
+												<img style="HEIGHT: 40px;" src="imagenes/iconoLlamar.PNG">
+												<a
+													style="font-size: 26px;font-family: sans-serif;vertical-align: super;color: #8c8a8b;">691
+													203 619</a>
+											</td>
+										</tr>
+									</table>
+									<div
+										style="float: right;background: #949494;color: white;height: 30px;width: 190px;padding: 7px 10px 0px 0px;">
+										<a style="font-family: sans-serif;">2020 - GRUPO ARIKEL</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+
+					</div>
+				</td>
+			</tr>
+
+		</table>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" type="text/javascript"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"
+		type="text/javascript"></script>
+	<script type="text/javascript">
+
+
+
+
+
+		$(document).ready(function () {
+
+			var altura = 0;
+			gsap.registerPlugin(ScrollTrigger);
+
+
+			document.getElementById("body").onload = function () {
+				document.getElementById("carga").style.display = "none";
+				document.getElementById("body").style.overflow = "inherit";
+			};
+
+
+
+			/*Reload al rotar*/
+
+			function doOnOrientationChange() {
+				switch (window.orientation) {
+					case -90: case 90:
+						location.reload();
+						break;
+					default:
+						location.reload();
+						break;
+				}
+			}
+
+			window.addEventListener('orientationchange', doOnOrientationChange);
+
+
+			/*< !--Animacion Lineas de Trabajo-- >*/
+
+			let sectionsLinea = gsap.utils.toArray(".divLineas");
+
+			const tll = gsap.timeline();
+
+
+			tll.to("#linea1", {
+				left: "-100%",
+				opacity: 0,
+				transform: "rotateZ(-10deg)",
+				display: "none",
+				duration: 3
+			})
+
+				.to("#linea2", {
+					left: "0%",
+					opacity: 1,
+					transform: "rotateZ(0deg)",
+					display: "inherit",
+					duration: 3
+				})
+
+				.to("#linea2", {
+					left: "-100%",
+					opacity: 0,
+					transform: "rotateZ(-10deg)",
+					display: "none",
+					duration: 3
+				})
+
+				.to("#linea3", {
+					left: "0%",
+					opacity: 1,
+					transform: "rotateZ(0deg)",
+					display: "inherit",
+					duration: 3
+				})
+
+
+			ScrollTrigger.create({
+				animation: tll,
+				trigger: "#lineas",
+				start: "((top + 44) - window.innerHeight) bottom",
+				end: () => "+=" + (document.querySelector("#lineas").offsetHeight * 2),
+				scrub: 1,
+				pin: true,
+				snap: 1 / (sectionsLinea.length - 1)
+			});
+
+
+
+			tlLinea1 = new TimelineLite({ paused: true })
+
+			tlLinea1.to("#seguirLeyendo1", {
+				display: "none",
+				opacity: 0,
+				duration: 0.3
+			})
+
+				.to("#imgLinea1", {
+					left: "-100%",
+					opacity: 0,
+					display: "none",
+					duration: 2
+				})
+
+				.to("#pLinea1-1", {
+					fontSize: "2.6vmin",
+					duration: 1
+				})
+
+				.to("#pLinea1-2", {
+					fontSize: "2.6vmin",
+					display: "inherit",
+					opacity: 1,
+					marginTop: "0px",
+					duration: 1
+				})
+
+			$("#seguirLeyendo1").click(function () {
+
+			});
+
+
+			tlLinea2 = new TimelineLite({ paused: true })
+
+			tlLinea2.to("#seguirLeyendo2", {
+				display: "none",
+				opacity: 0,
+				duration: 0.3
+			})
+
+				.to("#imgLinea2", {
+					left: "-100%",
+					opacity: 0,
+					display: "none",
+					duration: 2
+				})
+
+				.to("#pLinea2-1", {
+					fontSize: "2.2vmin",
+					duration: 1
+				})
+
+				.to("#pLinea2-2", {
+					fontSize: "2.2vmin",
+					display: "inherit",
+					opacity: 1,
+					marginTop: "0px",
+					duration: 1
+				})
+
+
+
+
+			tlLinea3 = new TimelineLite({ paused: true })
+
+			tlLinea3.to("#seguirLeyendo3", {
+				display: "none",
+				opacity: 0,
+				duration: 0.3
+			})
+
+				.to("#imgLinea3", {
+					left: "-100%",
+					opacity: 0,
+					display: "none",
+					duration: 2
+				})
+
+				.to("#pLinea3-1", {
+					fontSize: "2.2vmin",
+					duration: 1
+				})
+
+				.to("#pLinea3-2", {
+					fontSize: "2.2vmin",
+					display: "inherit",
+					opacity: 1,
+					marginTop: "0px",
+					duration: 1
+				})
+
+
+
+			$("#seguirLeyendo1").click(function () {
+				tlLinea1.play();
+			});
+
+			$("#seguirLeyendo2").click(function () {
+				tlLinea2.play();
+			});
+
+			$("#seguirLeyendo3").click(function () {
+				tlLinea3.play();
+			});
+
+
+
+
+			$("#verMenos1").click(function () {
+				tlLinea1.reverse();
+			});
+
+			$("#verMenos2").click(function () {
+				tlLinea2.reverse();
+			});
+
+			$("#verMenos3").click(function () {
+				tlLinea3.reverse();
+			});
+
+
+			/*< !--Animacion Responsabilidad-- >*/
+
+			let sections = gsap.utils.toArray(".divResponsabilidad");
+
+			const tl = gsap.timeline();
+
+			var tl1 = new TimelineLite({ paused: true })
+
+			tl1.to("#separador1", {
+				y: "-100%",
+				duration: 1
+			})
+
+				.to("#separador1", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad1", {
+					x: "-100%",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad1", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad1", {
+					x: "100%",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad1", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#sobreArribaContenido1", {
+					transform: "rotateX(160deg)",
+					transformOrigin: "top",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px 22px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreAbajoContenido1", {
+					transform: "rotateX(-160deg)",
+					transformOrigin: "bottom",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px -25px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreResponsabilidad1", {
+					left: "5%",
+					top: "26%",
+					height: "45%",
+					width: "90%",
+					duration: 1
+				})
+
+			var tl2 = new TimelineLite({ paused: true })
+
+			tl2.to("#separador2", {
+				y: "-100%",
+				duration: 1
+			})
+
+				.to("#separador2", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad2", {
+					x: "-100%",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad2", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad2", {
+					x: "100%",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad2", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#sobreArribaContenido2", {
+					transform: "rotateX(160deg)",
+					transformOrigin: "top",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px 22px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreAbajoContenido2", {
+					transform: "rotateX(-160deg)",
+					transformOrigin: "bottom",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px -25px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreResponsabilidad2", {
+					left: "5%",
+					top: "26%",
+					height: "45%",
+					width: "90%",
+					duration: 1
+				})
+
+			var tl3 = new TimelineLite({ paused: true })
+
+			tl3.to("#separador3", {
+				y: "-100%",
+				duration: 1
+			})
+
+				.to("#separador3", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad3", {
+					x: "-100%",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad3", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad3", {
+					x: "100%",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad3", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#sobreArribaContenido3", {
+					transform: "rotateX(160deg)",
+					transformOrigin: "top",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px 22px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreAbajoContenido3", {
+					transform: "rotateX(-160deg)",
+					transformOrigin: "bottom",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px -25px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreResponsabilidad3", {
+					left: "5%",
+					top: "26%",
+					height: "45%",
+					width: "90%",
+					duration: 1
+				})
+
+			var tl4 = new TimelineLite({ paused: true })
+
+			tl4.to("#separador4", {
+				y: "-100%",
+				duration: 1
+			})
+
+				.to("#separador4", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad4", {
+					x: "-100%",
+					duration: 1
+				})
+
+				.to("#pResponsabilidad4", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad4", {
+					x: "100%",
+					duration: 1
+				})
+
+				.to("#imgResponsabilidad4", {
+					opacity: 0,
+					display: "none",
+					duration: 1
+				})
+
+				.to("#sobreArribaContenido4", {
+					transform: "rotateX(160deg)",
+					transformOrigin: "top",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px 22px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreAbajoContenido4", {
+					transform: "rotateX(-160deg)",
+					transformOrigin: "bottom",
+					boxShadow: "rgba(0, 0, 0, 0.24) -15px -25px 30px 2px",
+					duration: 1
+				})
+
+				.to("#sobreResponsabilidad4", {
+					left: "5%",
+					top: "26%",
+					height: "45%",
+					width: "90%",
+					duration: 1
+				})
+
+
+			tl.to("#divResponsabilidad1", {
+				x: "-120%",
+				opacity: 0,
+				display: "none",
+				duration: 4,
+				delay: 1
+			})
+
+				.to("#divResponsabilidad2", {
+					x: "0%",
+					opacity: 1,
+					display: "initial",
+					duration: 4,
+					delay: 1
+				})
+
+				.to("#divResponsabilidad2", {
+					x: "-120%",
+					opacity: 0,
+					display: "none",
+					duration: 4,
+					delay: 1
+				})
+
+				.to("#divResponsabilidad3", {
+					x: "0%",
+					opacity: 1,
+					display: "initial",
+					duration: 4,
+					delay: 1
+				})
+
+				.to("#divResponsabilidad3", {
+					x: "-120%",
+					opacity: 0,
+					display: "none",
+					duration: 4,
+					delay: 1
+				})
+
+				.to("#divResponsabilidad4", {
+					x: "0%",
+					opacity: 1,
+					display: "initial",
+					duration: 4,
+					delay: 1
+				})
+
+
+			ScrollTrigger.create({
+				animation: tl,
+				trigger: "#responsabilidadSocial",
+				start: "((top + 44) - window.innerHeight) bottom",
+				end: () => "+=" + (document.querySelector("#responsabilidadSocial").offsetHeight * 2),
+				scrub: 1,
+				pin: true,
+				snap: 1 / (sections.length - 1)
+			});
+
+
+
+
+			$("#botonAbrirSobre1").on("click", function () {
+				tl1.play();
+			})
+			$("#botonCerrarSobre1").on("click", function () {
+				tl1.reverse();
+			})
+
+			$("#botonAbrirSobre2").on("click", function () {
+				tl2.play();
+			})
+			$("#botonCerrarSobre2").on("click", function () {
+				tl2.reverse();
+			})
+
+			$("#botonAbrirSobre3").on("click", function () {
+				tl3.play();
+			})
+			$("#botonCerrarSobre3").on("click", function () {
+				tl3.reverse();
+			})
+
+			$("#botonAbrirSobre4").on("click", function () {
+				tl4.play();
+			})
+			$("#botonCerrarSobre4").on("click", function () {
+				tl4.reverse();
+			})
+
+
+
+
+
+
+
+
+
+			/*< !--desplegar texto de Trabaja y adopta-- >*/
+
+			desplegar1();
+			desplegar2();
+
+			window.addEventListener('scroll', function () {
+				desplegar1();
+				desplegar2();
+			});
+
+			function desplegar1() {
+				var element = document.querySelector('#divTrabaja1');
+				var position = element.getBoundingClientRect();
+
+				if (position.top >= 0 && position.bottom <= window.innerHeight) {
+					var control = 1;
+					desplegarTrabajo(control);
+				} else {
+					if (position.top < window.innerHeight && position.bottom >= 0) {
+						var control = 0;
+						desplegarTrabajo(control);
+					} else {
+						resetTrabaja();
+					}
+				}
+			}
+			function desplegar2() {
+				var element = document.querySelector('#divAdopta1');
+				var position = element.getBoundingClientRect();
+
+				if (position.top >= 0 && position.bottom <= window.innerHeight) {
+					var control = 1;
+					desplegarAdopta(control);
+				} else {
+					if (position.top < window.innerHeight && position.bottom >= 0) {
+						var control = 0;
+						desplegarAdopta(control);
+					} else {
+						resetAdopta();
+					}
+				}
+			}
+
+			function desplegarTrabajo(control) {
+				if (!control && document.getElementById("formulario1").style.left == "0%") {
+					$("#trabaja1").stop(true, true);
+					$("#trabaja2").stop(true, true);
+					$("#trabaja3").stop(true, true);
+					$("#formulario1").stop(true, true);
+
+					$("#trabaja1").animate({ left: '-100%', opacity: '0.4' }, "slow");
+					$("#trabaja2").animate({ left: '-100%', opacity: '0.4' }, "slow");
+					$("#trabaja3").animate({ left: '-100%', opacity: '0.4' }, "slow");
+					$("#formulario1").animate({ left: '-100%', opacity: '0.4' }, "slow");
+				}
+				if (control && document.getElementById("formulario1").style.left != "0%") {
+
+					$("#trabaja1").animate({ left: '0%', opacity: '1' }, "slow");
+					$("#trabaja2").delay(500).animate({ left: '0%', opacity: '1' }, "slow");
+					$("#trabaja3").delay(1000).animate({ left: '0%', opacity: '1' }, "slow");
+					$("#formulario1").delay(1500).animate({ left: '0%', opacity: '1' }, "slow");
+				}
+			}
+			function desplegarAdopta(control) {
+				if (!control && document.getElementById("formulario2").style.right == "0%") {
+					$("#adopta1").stop(true, true);
+					$("#adopta2").stop(true, true);
+					$("#adopta3").stop(true, true);
+					$("#formulario2").stop(true, true);
+					$("#adopta1").animate({ right: '-100%', opacity: '0.4' }, "slow");
+					$("#adopta2").animate({ right: '-100%', opacity: '0.4' }, "slow");
+					$("#adopta3").animate({ right: '-100%', opacity: '0.4' }, "slow");
+					$("#formulario2").animate({ right: '-100%', opacity: '0.4' }, "slow");
+				}
+				if (control && document.getElementById("formulario2").style.right != "0%") {
+
+					$("#adopta1").animate({ right: '0%', opacity: '1' }, "slow");
+					$("#adopta2").delay(500).animate({ right: '0%', opacity: '1' }, "slow");
+					$("#adopta3").delay(1000).animate({ right: '0%', opacity: '1' }, "slow");
+					$("#formulario2").delay(1500).animate({ right: '0%', opacity: '1' }, "slow");
+				}
+			}
+
+			function resetTrabaja() {
+				$("#trabaja1").stop(true, true);
+				$("#trabaja2").stop(true, true);
+				$("#trabaja3").stop(true, true);
+				$("#formulario1").stop(true, true);
+
+				document.getElementById("trabaja1").style.left = "-100%";
+				document.getElementById("trabaja2").style.left = "-100%";
+				document.getElementById("trabaja3").style.left = "-100%";
+				document.getElementById("formulario1").style.left = "-100%";
+			}
+			function resetAdopta() {
+				$("#adopta1").stop(true, true);
+				$("#adopta2").stop(true, true);
+				$("#adopta3").stop(true, true);
+				$("#formulario2").stop(true, true);
+
+				document.getElementById("adopta1").style.right = "-100%";
+				document.getElementById("adopta2").style.right = "-100%";
+				document.getElementById("adopta3").style.right = "-100%";
+				document.getElementById("formulario2").style.right = "-100%";
+			}
+
+
+
+
+			/*< !--formulario email-- >*/
+
+			document.getElementById("consentimiento").onchange = comprobarCampos;
+			document.getElementById("nombre").onchange = comprobarCampos;
+			document.getElementById("correo").onchange = comprobarCampos;
+			document.getElementById("cuerpo").onchange = comprobarCampos;
+
+
+
+			function Fconsentimiento() {
+
+				if (document.getElementById("consentimiento").checked == true) {
+					document.getElementById("enviar").disabled = false;
+					document.getElementById("enviar").style.background = "#3760a5";
+				} else {
+					document.getElementById("enviar").disabled = true;
+					document.getElementById("enviar").style.background = "#3760a58a";
+				}
+			}
+
+
+			function comprobarCampos() {
+				var valueNombre = document.getElementById("nombre").value;
+				var valueCorreo = document.getElementById("correo").value;
+				var valueCuerpo = document.getElementById("cuerpo").value;
+
+				if ((valueNombre.length > 3) && (valueCorreo.length > 8) && (valueCuerpo.length > 10)) {
+					Fconsentimiento();
+				} else {
+					document.getElementById("enviar").disabled = true;
+					document.getElementById("enviar").style.background = "#3760a58a";
+				}
+			}
+
+			$("#enviar").click(function () {
+
+				var nombre = $("#nombre").val();
+				var correo = $("#correo").val();
+				var cuerpo = $("#cuerpo").val();
+
+				$.ajax({
+					url: "email.php",
+					method: "POST",
+					data: { nombre: nombre, correo: correo, cuerpo: cuerpo },
+					success: function (data) {
+						alert("Tu consulta ha sido enviada, nos pondremos en contacto con usted vía e-mail lo antes posible.");
+					}
+				})
+			});
+
+
+
+
+
+
+			/*	< !--scroll -->*/
+
+
+			if (window.addEventListener) {
+				window.addEventListener("scroll", scrollPage)
+				window.addEventListener("resize", scrollPage)
+			}
+			scrollPage();
+
+
+			function scrollPage() {
+				var top;
+				top = scrollTop()
+
+				if (((altura - 150) > window.innerHeight) || ((altura + 150) < window.innerHeight)) {
+					altura = window.innerHeight;
+
+					document.getElementById("responsabilidadSocial").style.minHeight = altura + "px";
+
+					document.getElementById("divHorus").style.minHeight = altura + "px";
+
+					document.getElementById("lineas").style.minHeight = altura + "px";
+
+					document.getElementById("historiaEmpresa").style.minHeight = altura + "px";
+
+					document.getElementById("trabajaAdopta").style.minHeight = altura + "px";
+
+					document.getElementById("empleados").style.minHeight = altura + "px";
+
+					document.getElementById("contacto").style.minHeight = altura + "px";
+
+				}
+
+				/*	< !--Reducir ancho-- >*/
+
+				if (window.innerWidth < 1030) {
+					document.getElementById("botonMenu").style.display = "inherit";
+					document.getElementById("menu").style.display = "none"
+
+
+					if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+						$(".subMenu").css("transition", "inherit");
+						document.getElementById("encabezado").style.height = "44px";
+						document.getElementById("logoDiv").style.height = "44px";
+						document.getElementById("logoImg").style.height = "40px";
+						document.getElementById("logoImg").style.margin = "0px";
+						document.getElementById("menu").style.top = "8px";
+						document.getElementById("botonMenu").style.margin = "0px";
+						$(".subMenu2").css({ "transition": "inherit", "top": "115px" });
+
+					} else {
+						$(".subMenu").css("transition", "inherit");
+						document.getElementById("encabezado").style.height = "80px";
+						document.getElementById("logoDiv").style.height = "80px";
+						document.getElementById("logoImg").style.height = "78px";
+						document.getElementById("logoImg").style.margin = "0px 0px 0px 0px";
+						document.getElementById("menu").style.top = "35px";
+						document.getElementById("botonMenu").style.margin = "23px 0px 0px 0px";
+						$(".subMenu2").css({ "transition": "inherit", "top": "146px" });
+					}
+
+
+					/*< !--Amplicar ancho-- >*/
+
+				} else {
+					document.getElementById("botonMenu").style.display = "none";
+					document.getElementById("listaMenu").style.display = "none";
+					document.getElementById("menu").style.display = "inherit"
+					if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+						$(".subMenu").css("transition", "inherit");
+						document.getElementById("encabezado").style.height = "44px";
+						document.getElementById("logoDiv").style.height = "44px";
+						document.getElementById("logoImg").style.height = "40px";
+						document.getElementById("logoImg").style.margin = "0px";
+						document.getElementById("menu").style.top = "8px";
+					} else {
+						$(".subMenu").css("transition", "inherit");
+						document.getElementById("encabezado").style.height = "80px";
+						document.getElementById("logoDiv").style.height = "80px";
+						document.getElementById("logoImg").style.height = "78px";
+						document.getElementById("logoImg").style.margin = "0px 0px 0px 0px";
+						document.getElementById("menu").style.top = "35px";
+					}
+				}
+
+
+			}
+
+			/*	< !--Obtener posicion scroll-- >*/
+
+			function scrollTop() {
+				var top = 0;
+				if (typeof (window.pageYOffset) == "number") {
+					top = window.pageYOffset;
+				} else if (document.body && document.body.scrollTop) {
+					top = document.body.scrollTop;
+				} else if (document.documentElement && document.documentElement.scrollTop) {
+					top = document.documentElement.scrollTop;
+				}
+				return top;
+			}
+
+			document.getElementById("botonMenu").addEventListener("click", hideMenu);
+
+			/*	< !--ocultar menu-- >*/
+
+			function hideMenu() {
+				if (document.getElementById("listaMenu").style.display == "inherit") {
+					document.getElementById("listaMenu").style.display = "none";
+				} else {
+					document.getElementById("listaMenu").style.display = "inherit";
+				}
+			}
+
+
+
+
+		});
+
+
+
+	</script>
+</body>
+
+</html>
